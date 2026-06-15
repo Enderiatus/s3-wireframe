@@ -1,4 +1,82 @@
 /* #header, #hero, #gallery, #footer genişlikleri 750px olmalı */
+body {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#hero {
+    background-color: #777;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery {
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.boxes {
+    width: 240px;
+    height: 180px;
+    background-color: #777;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#footer {
+    margin-top: 20px;
+    height: 70px;
+    background-color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+#menu a {
+    background-color: #777;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    background-color: #000;
+
+}
+
+.buton {
+    background-color: white;
+    padding: 10px;
+}
+
 
 /* #menu bir <nav> olmalı */
 /* #menu içindeki linklerin arka plan rengi: #777 */
